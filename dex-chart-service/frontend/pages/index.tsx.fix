@@ -1,0 +1,7 @@
+// Find these lines and update minLiquidity values:
+// axios.get(`${API_URL}/api/pairs?limit=200&minLiquidity=1000`)
+// axios.get(`${API_URL}/api/pairs/new?limit=20&minLiquidity=500`)
+
+// Replace with:
+// axios.get(`${API_URL}/api/pairs?limit=200&minLiquidity=0`)
+// axios.get(`${API_URL}/api/pairs/new?limit=20&minLiquidity=0`)
